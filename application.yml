@@ -1,0 +1,17 @@
+﻿spring:
+    profiles:
+        active:
+        - dev
+---
+# 开发环境
+spring:
+    profiles: dev 
+    application:
+        name: microservicecloud-config-rjc-dev
+---
+#测试环境
+spring:
+    profiles: test 
+    application:
+        name: microservicecloud-config-rjc-test
+# 保存格式为UTF-8
